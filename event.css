@@ -1,0 +1,210 @@
+/*style for the body */
+body{
+    position: relative;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('z4dddov5.png');
+/* This is the style for the header*/
+header{
+    background-color: white;
+    margin-bottom: 12px;
+    padding: 15px;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+    
+}
+.picture{
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+}
+.picture img{
+    width:100%;
+    height: auto;
+    margin:  0 auto;
+    padding: 0%;
+}
+.dean{
+    background-color: white;
+    border-radius: 20px;
+    
+}
+.dean1{
+    background-color: white;
+    margin: 12px;
+    padding: 12px;
+    text-align: center;
+    border-radius: 5px;
+}
+hr{
+    height: 5px;
+    margin: 12px;
+    background-color: black;
+}
+h2{
+    text-align: center;
+    font-style: oblique;
+    font-size: large;
+    background-color: burlywood;
+
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+nav ul li{
+   display: inline;
+   margin: 5px;
+   padding: 5px;
+   
+
+}
+nav ul li a{
+    color:#c01c10;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+nav ul li a:hover{
+    color: black;
+}
+h1{
+    color:gold;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    padding: 10px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+/*The header style ends here*/
+
+/* lets begin the style for the Event-details*/
+.event{
+    margin: 12px;
+    padding: 10px;
+    color: black;
+    align-items: left;
+    text-align: center;
+    font-size: 20px;
+   
+
+}
+/* lets make some style for speakers */
+.speaker{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    
+    border-bottom-left-radius: 300px;
+}
+.The-spokes {
+    display: flex;
+    gap: 2px; 
+}
+
+.speaker1, .speaker2, .speaker3 {
+    flex: 1;
+    text-align: center;
+}
+
+}
+/** this is for the schedule */
+/* Container for the two sections */
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Adjust the gap as needed for spacing */
+    padding: 50px;
+}
+
+/* Individual section styling */
+#schedule, #registration {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensure the form elements look consistent */
+#registration form {
+    display: flex;
+    flex-direction: column;
+}
+
+#registration label, #registration input, #registration button {
+    margin-bottom: 10px;
+}
+
+/* the footer page in here for editing*/
+hr{
+    border-radius: 5px;
+    color: black;
+}
+/* General Section Styling */
+section {
+    margin: 2px 0;
+    padding: 2px;
+    border-radius: 8px;
+    
+}
+
+/* Heading Styling */
+section h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+}
+
+/* Sponsor Images Styling */
+.sponsor {
+    display: inline-block;
+    margin: 60px;
+    text-align: center;
+    
+}
+
+.sponsor img {
+    max-width: 150px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section Styling */
+#contact p {
+    margin: 10px 0;
+}
+
+/* FAQ Section Styling */
+#faqs p {
+    margin: 10px 0;
+}
+
+#faqs strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#faqs p:nth-child(odd) {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+footer{
+    background-color: black;
+    color: gold;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    border-bottom-right-radius: 120px;
+    border-bottom-left-radius: 120px;
+}
